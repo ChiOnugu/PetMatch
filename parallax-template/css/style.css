@@ -1,0 +1,153 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+ 
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1{
+   color: black;
+   }
+.Header{
+      color: blue;
+          }
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#table{
+  color: black;
+}
+
+#cost{
+  color: black;
+  align-content: center;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+#vistor{
+  font-size: 20px;
+}
+#search{
+  font-size: 20px;
+}
+#code{
+  font-size: 20px;
+}
+#description{
+  line-height: 180%;
+}
+#contact1{
+  font-size: 16px;
+}
+#contact2{
+  font-size: 16px;
+}
+#print{
+  float: right;
+}
+#name{
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#description{
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#sex{
+  font-size: 18px;
+}
+#size{
+  font-size: 18px;
+}
+#age{
+  font-size: 18px;
+}
+#shelter{
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#contact1{
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#contact2{
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#facts{
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#link{
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+}
+#small, #medium, #large, #work{
+  background-color: white;
+ /* color: #D32F2F ;*/
+  border: none;
+  border-radius: 12px;
+
+}
+.dfc-container{
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
+.inputcalories{
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  font-size: 18px;
+  font-family: Source Sans Pro, sans-serif;
+}
