@@ -70,7 +70,7 @@
   <div class="col-sm-5">
 
 
-<button id="quizButton" style="font-size:24px">Take Quiz! <i class="fa fa-paw"></i></button>
+<button id="quizButton"  class="option animated rubberBand" style="font-size:24px">Take Quiz! <i class="fa fa-paw"></i></button>
     <h3 id="quiz"></h3>
     <h4 id="options"></h4>
     </div>
@@ -98,9 +98,9 @@
 <div class="info"> 
       
 <form class="form-inline">      
-    <input class="form-control" type="text" name="name" id="vistor"> <b> Name</b>
-    <input class="form-control" type="text" name="breed" id="search"> <b>Breed</b>
-    <input class="form-control" type="number" name="zipCode" id="code"> <b>Zip Code</b>
+    <input class="form-control" type="text" name="name" placeholder="Name" id="vistor"> <b> Name</b>
+    <input class="form-control" type="text" name="breed" placeholder="Dog Breed" id="search"> <b>Breed</b>
+    <input class="form-control" type="number" name="zipCode" placeholder="Zip Code" id="code"> <b>Zip Code</b>
 </form>
 
 <button class="find" style="font-size:24px">Submit <i class="fa fa-paw"></i></button>
@@ -122,7 +122,11 @@
 
 <button type="button" class="btn btn-primary" onclick="myFunction()">Print</button>
       </div>
-      
+      <script>
+function myFunction() {
+    window.print();
+}
+</script>
       <div id="photo"></div>
       <p><span id="name"></span></p>
       <p><span id="description"></span></p>
@@ -146,7 +150,7 @@
       <div class="section no-pad-bot">
       <div class="container">
       <div class="row center">
-      <h2 class="header col s12 light black-text text-darken-2">What to Know the Cost of your Pet... Here you GO!!</h2>
+      <h2 class="header col s12 light black-text text-darken-2">Want to Know the Cost of your Pet... Here you GO!!</h2>
       <button id="cost" style="font-size:24px">Pet Cost Table <i class="fa fa-paw"></i></button>
       </div>
         

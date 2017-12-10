@@ -141,8 +141,7 @@ footer.page-footer {
   margin: 40px;
   padding: 20px;
   background-color: white;
-  font-size: 18px;
-  font-family: Source Sans Pro, sans-serif;
+  
 }
 .inputcalories{
   margin: 40px;
@@ -150,4 +149,7 @@ footer.page-footer {
   background-color: white;
   font-size: 18px;
   font-family: Source Sans Pro, sans-serif;
+}
+.option{
+  animation-iteration-count: infinite;
 }
