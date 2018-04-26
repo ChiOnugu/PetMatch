@@ -2,4 +2,4 @@
 
 
 
-http://chionugu.io/PetMatch/
+chionugu.io/PetMatch/
